@@ -1,6 +1,7 @@
 <?php
 include('koneksi.php');
 zianisa
+ini branch kedua
 // Ambil data produk dari database
 $query = "SELECT * FROM produk ORDER BY id DESC";
 $result = mysqli_query($koneksi, $query);
